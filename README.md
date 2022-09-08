@@ -22,11 +22,18 @@
     - > npm install express --save
 
 
-# 実行
+# 実行 1
 > node index.js
 
-# 結果確認
+## 結果確認
 - ブラウザで　http://localhost:3000
 
 - > curl -X GET http://localhost:3000/
+
+# 実行 2
+> node index-post.js
+
+## 結果確認
+
+- > curl -X POST http://localhost:3001/ -H "Content-type: application/json" -d '{ "pet" : "cat" }'
 
