@@ -22,15 +22,15 @@
     - > npm install express --save
 
 
-# 実行 1
-> node index.js
+# 実行 1 (GET sample)
+> node index-get.js
 
 ## 結果確認
 - ブラウザで　http://localhost:3000
 
 - > curl -X GET http://localhost:3000/
 
-# 実行 2
+# 実行 2 (POST sample)
 > node index-post.js
 
 ## 結果確認
